@@ -174,11 +174,76 @@
 							</div>
 						</div>
 					</div>
-					<div class="welcome-hero-serch">
-						<button class="welcome-hero-btn" onclick="window.location.href='#'">
-							 search  <i data-feather="search"></i> 
-						</button>
-					</div>
+					<div data-widget="overlay">
+  <script type="application/json">
+    {
+      "account": "1653262946373502286",
+      "collection": "classi",
+      "endpoint": "//jsonapi-us-valkyrie.sajari.net",
+      "pipeline": "website",
+      "preset": "website",
+      "currency": "USD",
+      "variables": {},
+      "filters": [],
+      "options": {
+        "sorting": {
+          "options": [
+            {
+              "name": "Most relevant",
+              "value": ""
+            },
+            {
+              "name": "Alphabetical: A to Z",
+              "value": "title"
+            },
+            {
+              "name": "Alphabetical: Z to A",
+              "value": "-title"
+            },
+            {
+              "name": "Date: Oldest to Newest",
+              "value": "created_at"
+            },
+            {
+              "name": "Date: Newest to Oldest",
+              "value": "-created_at"
+            }
+          ]
+        },
+        "results": {
+          "viewType": "grid",
+          "showVariantImage": false,
+          "imageAspectRatio": {
+            "grid": 0.563,
+            "list": 1
+          },
+          "imageObjectFit": {
+            "grid": "cover",
+            "list": "cover"
+          }
+        },
+        "showViewType": true,
+        "input": {
+          "hide": false,
+          "position": "aside"
+        },
+        "mode": "overlay",
+        "buttonSelector": "a[href='/search']"
+      },
+      "theme": {
+        "color": {
+          "primary": {
+            "base": "#667eea",
+            "text": "#ffffff",
+            "active": "#5a67d8"
+          }
+        }
+      }
+    }
+  </script>
+  <noscript>This page requires JavaScript</noscript>
+</div>
+<script async src="https://cdn.sajari.com/embed/1/loader.js"></script>
 				</div>
 			</div>
 
